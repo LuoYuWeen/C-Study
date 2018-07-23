@@ -1,4 +1,3 @@
-# C-Study
-Including the C language which I studied in 2017
+# About myself
 Hi, everyone,I am LUOYuWen !
-After learning Network Engineering for years,now I intend to use this github to record the study and life . 
+After learning Network Engineering for a year,now I intend to use this github to record my study and life . 
