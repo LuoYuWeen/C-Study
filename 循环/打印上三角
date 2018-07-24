@@ -1,0 +1,45 @@
+/打印上三角,行数n手动输入
+
+//****
+//***
+//**
+//*
+#include<stdio.h>
+int main (void)
+{
+	int i,j,k,n;
+	printf("please input n=");
+	scanf("%d",&n);
+	for(i=n;i>0;i--)
+	{
+	//	for(j=n;j>i;j--)
+	//		printf(" ");
+		for(k=0;k<i;k++)
+			printf("*");
+		printf("\n");
+	}
+}
+
+
+//	  *****
+//     ****
+//	    ***
+//	     **
+//	   	  *
+
+#include <stdio.h>
+int main (void)
+{
+	int i,j,k,n;
+	printf("please input n=");
+	scanf("%d",&n);
+	for(i=n;i>0;i--)
+	{
+		for(j=n;j>i;j--)
+			printf(" ");
+		for(k=0;k<i;k++)
+			printf("*");
+		printf("\n");
+	}
+
+}
