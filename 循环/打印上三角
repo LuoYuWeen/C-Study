@@ -12,8 +12,6 @@ int main (void)
 	scanf("%d",&n);
 	for(i=n;i>0;i--)
 	{
-	//	for(j=n;j>i;j--)
-	//		printf(" ");
 		for(k=0;k<i;k++)
 			printf("*");
 		printf("\n");
@@ -25,7 +23,7 @@ int main (void)
 //     ****
 //      ***
 //       **
-//	  *
+//	   *
 
 #include <stdio.h>
 int main (void)
